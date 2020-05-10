@@ -6,7 +6,8 @@ class Login extends StatelessWidget {
     {"name":"THOR ODINSON","age":"2000","id":"03"},
     {"name":"NATASHA ROMANOFF","age":"36","id":"04"},
     {"name":"BRUCE BANNER","age":"47","id":"05"},
-    {"name":"CLINT BARTON","age":"40","id":"06"}];
+    {"name":"T'CHALA","age":"37","id":"06"},
+    {"name":"CLINT BARTON","age":"40","id":"07"}];
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,7 +30,7 @@ class Login extends StatelessWidget {
                     Card(
                       elevation: 10.0,
                       child: ListTile(
-                      leading: Icon(Icons.perm_contact_calendar,size: 40.0,),
+                      leading: Icon(Icons.people,size: 40.0,),
                       trailing: int.parse(data[index]["age"].toString()) > 50 ? FlatButton(
                         onPressed:(){
                         print("Clicked");
