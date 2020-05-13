@@ -42,15 +42,15 @@ class _OpState extends State<Op> {
                         var number = int.parse(numbercontroller.text);
 
                         setState(() {
-                          var res = (number % 2) as int;
+                          var res = (number % 2);
                           if (res == 0) {
-                            setState(() {
+
                               result = "EVEN";
-                            });
+
                           } else {
-                            setState(() {
+
                               result = "ODD";
-                            });
+                            
                           }
 
                         });
