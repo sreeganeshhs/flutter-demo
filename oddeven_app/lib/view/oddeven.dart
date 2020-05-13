@@ -74,7 +74,7 @@ class _OpState extends State<Op> {
                         child: Center(
                           child: Text("To check CLICK HERE",
                               //textAlign:TextAlign.center
-                              style: TextStyle(fontSize: 23.0)),
+                              style: TextStyle(fontSize: 30.0)),
                         ),
                       ),
                     ),
@@ -103,7 +103,7 @@ class _OpState extends State<Op> {
                         child: Center(
                           child: Text("The Number is "+result,
                               //textAlign:TextAlign.center
-                              style: TextStyle(fontSize: 23.0)),
+                              style: TextStyle(fontSize: 30.0)),
                         ),
                       ),
                     ),
